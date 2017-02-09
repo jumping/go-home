@@ -355,7 +355,7 @@ func ShowLeftTicket(cmd *Command, args []string) int {
 				}
 			}
 		} else {
-			log.Fatal("invalid left tricket message!")
+			log.Fatal("invalid left ticket message!")
 			return 2
 		}
 	}
