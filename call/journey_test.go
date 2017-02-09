@@ -20,10 +20,10 @@ import (
 // 	end   = "\x1b[92m(终)\x1b[0m"
 // )
 
-func TestShowLeftTricket(t *testing.T) {
+func TestShowLeftTicket(t *testing.T) {
 	table := tablewriter.NewWriter(os.Stdout)
 
-	f, err := ioutil.ReadFile("./testlefttricketdata.json")
+	f, err := ioutil.ReadFile("./testleftticketdata.json")
 
 	if err != nil {
 		t.Fatal(err)
